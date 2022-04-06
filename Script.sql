@@ -1,3 +1,6 @@
+create database FptBD
+use FptBD
+
 create table Customers(
 CustomerId int identity(1,1) primary key not null,
 CustomerName varchar(30) not null,
